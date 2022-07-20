@@ -1,0 +1,22 @@
+{
+  "preset": "ts-jest",
+  "coverageDirectory": "./coverage",
+  "resetMocks": true,
+  "clearMocks": true,
+  "testTimeout": 10000,
+  "globalSetup": "./src/Tests/IntegratedTests/Setup/global-setup.ts",
+  "globalTeardown": "./src/Tests/IntegratedTests/Setup/global-teardown.ts",
+  "testPathIgnorePatterns": ["/lib/", "/node_modules/", "/build/"],
+  "modulePathIgnorePatterns": [
+    "/src/Server/Infrastructure/PgTyped/Schemas/",
+    "/src/Server/Infrastructure/Migrations/",
+    "/src/Server/Setup/",
+    "/src/Server/Server.ts",
+    "/src/Server/Domain/Entities/"
+
+  ],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/Server/**/*.ts"
+  ]
+}

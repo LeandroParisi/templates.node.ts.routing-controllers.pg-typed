@@ -1,0 +1,15 @@
+{
+  "swagger-auto-gen": "https://www.npmjs.com/package/swagger-autogen",
+  "express-swagger-generator": "https://www.npmjs.com/package/express-swagger-generator",
+  "config": "https://www.npmjs.com/package/config",
+  "routing-controllers": "https://github.com/typestack/routing-controllers",
+  "routing-controllers-open-api": "https://www.npmjs.com/package/routing-controllers-openapi",
+  "typeorm": {
+    "connection-options": "https://orkhan.gitbook.io/typeorm/docs/connection-options#postgres--cockroachdb-connection-options"
+  },
+  "env-on-package-json": "https://medium.com/@arrayknight/how-to-use-env-variables-in-package-json-509b9b663867",
+  "pg-migrate": "https://salsita.github.io/node-pg-migrate/",
+  "country_state_cities": "https://countrystatecity.in/docs/api/all-states/",
+  "auto_mapper": "https://automapperts.netlify.app/",
+  "Auto_mapper_auternative": "https://github.com/nartc/mapper / https://github.com/nartc/automapper-transformer-plugin"
+}
